@@ -7,3 +7,14 @@
 //
 
 import Foundation
+class Constraints {
+    
+    let Ques:String!
+    let answer:Bool!
+    init(ques:String,answer:Bool) {
+        self.Ques = ques
+        self.answer = answer
+    }
+   
+
+}
