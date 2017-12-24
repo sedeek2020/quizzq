@@ -8,10 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainVC: UIViewController {
    
  
-    let questions = QuesBank()
+    let questions = QuestionsBank()
     var pickedAnswer = false
     var numberOfQuestion = 0
     var score = 0
@@ -58,19 +58,7 @@ class ViewController: UIViewController {
         updateUI()
         
     }
-    @IBAction func btn(_ sender: AnyObject) {
-        if sender.tag == 1 {
-            pickedAnswer = true
-        }else  if sender.tag == 2{
-            pickedAnswer = false
-        }
-        checkAnswer()
-       numberOfQuestion += 1
-       
-        
-        updateUI()
-     
-    }
+   
     func updateUI(){
          prograssBar.frame.size.width = CGFloat(view.frame.size.width / 13) * CGFloat(numberOfQuestion)
         scoreLable.text = "Score: \(score)"
@@ -80,7 +68,19 @@ class ViewController: UIViewController {
         
         
     }
-    
+    @IBAction func btn(_ sender: AnyObject) {
+        if sender.tag == 1 {
+            pickedAnswer = true
+        }else  if sender.tag == 2{
+            pickedAnswer = false
+        }
+        checkAnswer()
+        numberOfQuestion += 1
+        
+        
+        updateUI()
+        
+    }
   
 }
 

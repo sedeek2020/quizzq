@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF2D9C7C1FED61E9001307A3 /* QuesBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2D9C7B1FED61E9001307A3 /* QuesBank.swift */; };
+		AF2D9C7C1FED61E9001307A3 /* QuestionsBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2D9C7B1FED61E9001307A3 /* QuestionsBank.swift */; };
 		AF420D701FEDE3600037CC9F /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = AF420D6E1FEDE3600037CC9F /* ProgressHUD.m */; };
 		AF420D711FEDE3600037CC9F /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AF420D6F1FEDE3600037CC9F /* ProgressHUD.bundle */; };
 		AF5ACE521FED27B100CEB121 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5ACE511FED27B100CEB121 /* AppDelegate.swift */; };
-		AF5ACE541FED27B100CEB121 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5ACE531FED27B100CEB121 /* ViewController.swift */; };
+		AF5ACE541FED27B100CEB121 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5ACE531FED27B100CEB121 /* MainVC.swift */; };
 		AF5ACE571FED27B100CEB121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5ACE551FED27B100CEB121 /* Main.storyboard */; };
 		AF5ACE591FED27B100CEB121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF5ACE581FED27B100CEB121 /* Assets.xcassets */; };
 		AF5ACE5C1FED27B100CEB121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5ACE5A1FED27B100CEB121 /* LaunchScreen.storyboard */; };
@@ -19,14 +19,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AF2D9C7B1FED61E9001307A3 /* QuesBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuesBank.swift; sourceTree = "<group>"; };
+		AF2D9C7B1FED61E9001307A3 /* QuestionsBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsBank.swift; sourceTree = "<group>"; };
 		AF420D6C1FEDE35F0037CC9F /* quizzQ-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "quizzQ-Bridging-Header.h"; sourceTree = "<group>"; };
 		AF420D6D1FEDE3600037CC9F /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
 		AF420D6E1FEDE3600037CC9F /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
 		AF420D6F1FEDE3600037CC9F /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
 		AF5ACE4E1FED27B100CEB121 /* quizzQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quizzQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF5ACE511FED27B100CEB121 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF5ACE531FED27B100CEB121 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF5ACE531FED27B100CEB121 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		AF5ACE561FED27B100CEB121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF5ACE581FED27B100CEB121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF5ACE5B1FED27B100CEB121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -65,12 +65,12 @@
 			isa = PBXGroup;
 			children = (
 				AF5ACE511FED27B100CEB121 /* AppDelegate.swift */,
-				AF5ACE531FED27B100CEB121 /* ViewController.swift */,
+				AF5ACE531FED27B100CEB121 /* MainVC.swift */,
 				AF5ACE551FED27B100CEB121 /* Main.storyboard */,
 				AF5ACE581FED27B100CEB121 /* Assets.xcassets */,
 				AF5ACE5A1FED27B100CEB121 /* LaunchScreen.storyboard */,
 				AF5F70461FED40CC00D9C517 /* Constaints.swift */,
-				AF2D9C7B1FED61E9001307A3 /* QuesBank.swift */,
+				AF2D9C7B1FED61E9001307A3 /* QuestionsBank.swift */,
 				AF5ACE5D1FED27B100CEB121 /* Info.plist */,
 				AF420D6F1FEDE3600037CC9F /* ProgressHUD.bundle */,
 				AF420D6D1FEDE3600037CC9F /* ProgressHUD.h */,
@@ -155,10 +155,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF5F70471FED40CC00D9C517 /* Constaints.swift in Sources */,
-				AF5ACE541FED27B100CEB121 /* ViewController.swift in Sources */,
+				AF5ACE541FED27B100CEB121 /* MainVC.swift in Sources */,
 				AF420D701FEDE3600037CC9F /* ProgressHUD.m in Sources */,
 				AF5ACE521FED27B100CEB121 /* AppDelegate.swift in Sources */,
-				AF2D9C7C1FED61E9001307A3 /* QuesBank.swift in Sources */,
+				AF2D9C7C1FED61E9001307A3 /* QuestionsBank.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

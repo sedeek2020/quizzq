@@ -7,7 +7,7 @@
 //
 
 import Foundation
-class Constraints {
+class Constraint {
     
     let Ques:String!
     let answer:Bool!
